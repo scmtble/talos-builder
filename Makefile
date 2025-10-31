@@ -1,9 +1,9 @@
-PKG_VERSION = v1.10.0
-TALOS_VERSION = v1.10.7
+PKG_VERSION = v1.11.0
+TALOS_VERSION = v1.11.3
 SBCOVERLAY_VERSION = main
 
 REGISTRY ?= ghcr.io
-REGISTRY_USERNAME ?= talos-rpi5
+REGISTRY_USERNAME ?= scmtble
 
 TAG ?= $(shell git describe --tags --exact-match)
 
